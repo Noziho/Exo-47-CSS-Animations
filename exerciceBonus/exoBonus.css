@@ -18,7 +18,7 @@
      border-style: dashed;
      background-color: blue;
      animation-name: rotation-roue;
-     animation-duration: 10s;
+     animation-duration: 5s;
 }
 
 #roue2 {
@@ -31,7 +31,7 @@
     border-style: dashed;
     background-color: blue;
     animation-name: rotation-roue;
-    animation-duration: 10s;
+    animation-duration: 5s;
 }
 
 
@@ -56,14 +56,44 @@
 
 @keyframes rotation-roue {
     0% {
-        transform-origin: right;
-        transform: rotate(-360deg);
+        transform: rotate(-36deg);
+    }
+
+    10% {
+        transform: rotate(-36deg);
+    }
+    20% {
+        transform: rotate(-36deg);
+    }
+    30% {
+        transform: rotate(-36deg);
+    }
+    40% {
+        transform: rotate(-36deg);
+    }
+    50% {
+        transform: rotate(-36deg);
+    }
+    60% {
+        transform: rotate(-36deg);
+    }
+
+    70% {
+        transform: rotate(-36deg);
+    }
+
+    80% {
+        transform: rotate(-36deg);
+    }
+
+    90% {
+        transform: rotate(-36deg);
     }
 
     100% {
-        transform-origin: right;
-        transform: rotate(-360deg);
+        transform: rotate(-36deg);
     }
+
 }
 
 
