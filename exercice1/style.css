@@ -44,4 +44,29 @@
     position: absolute;
     left: 500px;
     top: 25px;
+    animation-name: anim-bar;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim-bar {
+    0% {
+        background : black;
+    }
+
+    25% {
+        background : red;
+    }
+
+    50% {
+        background: indianred;
+    }
+
+    75% {
+        background: orangered;
+    }
+
+    100% {
+        background: yellow;
+    }
 }
