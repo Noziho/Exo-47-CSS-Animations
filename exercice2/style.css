@@ -1,6 +1,30 @@
 #foo {
     width: 100px;
     height: 100px;
-    background: red;
+    background: #ff0000;
+    animation-name: bgChanges;
+    animation-duration: 3s;
+}
+
+@keyframes bgChanges {
+    0% {
+        background: #ff6400;
+    }
+
+    25% {
+        background: #ffb700;
+    }
+
+    50% {
+        background: #eeff00;
+    }
+
+    75% {
+        background: #99ff00;
+    }
+
+    100% {
+        background: #48ff00;
+    }
 }
 
