@@ -8,19 +8,7 @@
 
 @keyframes bgChanges {
     0% {
-        background: #ff6400;
-    }
-
-    25% {
-        background: #ffb700;
-    }
-
-    50% {
-        background: #eeff00;
-    }
-
-    75% {
-        background: #99ff00;
+        background: #ff0000;
     }
 
     100% {
