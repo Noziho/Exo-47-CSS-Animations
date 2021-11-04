@@ -44,11 +44,26 @@
 
 
 @keyframes direction-voiture {
+    0% {
+        margin-left: 0;
 
+    }
+
+    100% {
+        margin-left: 100%;
+    }
 }
 
 @keyframes rotation-roue {
+    0% {
+        transform-origin: right;
+        transform: rotate(-360deg);
+    }
 
+    100% {
+        transform-origin: right;
+        transform: rotate(-360deg);
+    }
 }
 
 
@@ -108,5 +123,23 @@
 
 
 @keyframes nuage {
+    0% {
+        margin-left: 0;
+    }
 
+    25% {
+        margin-left: 25%;
+    }
+
+    50% {
+        margin-left: 50%;
+    }
+
+    75% {
+        margin-left: 75%;
+    }
+
+    100% {
+        margin-left: 100%;
+    }
 }
